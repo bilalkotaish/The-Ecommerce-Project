@@ -1,0 +1,67 @@
+<div class="min-h-screen bg-gray-100 p-6">
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 text-center">Admin Dashboard</h1>
+            <p class="text-gray-600 text-center mt-2">Manage your e-commerce platform</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div class="p-6">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold text-center mb-4">Categories</h2>
+                    <button routerLink="/admin/categories" class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors duration-300">
+                        Manage Categories
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div class="p-6">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-green-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold text-center mb-4">Brands</h2>
+                    <button routerLink="/admin/brands" class="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors duration-300">
+                        Manage Brands
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div class="p-6">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-purple-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold text-center mb-4">Products</h2>
+                    <button routerLink="/admin/products" class="w-full bg-purple-500 text-white py-2 px-4 rounded-md hover:bg-purple-600 transition-colors duration-300">
+                        Manage Products
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div class="p-6">
+                    <div class="mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-orange-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold text-center mb-4">Orders</h2>
+                    <button routerLink="/admin/orders" class="w-full bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-600 transition-colors duration-300">
+                        Manage Orders
+                    </button>
+                </div>
+            </div>
+
+        
+    </div>
+</div>
+

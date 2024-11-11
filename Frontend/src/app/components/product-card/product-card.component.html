@@ -1,0 +1,35 @@
+<div class="bg-white border rounded-lg shadow hover:shadow-lg transition-shadow">
+  <img [src]="product.images[0]" alt="Product 1" class="w-full h-120 object-cover rounded-t-lg"
+    [routerLink]="'/product/'+product._id" />
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-medium">{{product.name}}</h3>
+    <h3 class="text-lg font-medium">{{product.shortDescription}}</h3>
+    <div class="flex gap-3 justify-center">
+      <h2 class="text-xl text-red-600 mt-2"><s class="color-gray">{{product.purchasePrice}}$ </s></h2>
+      <h2 class="text-xl text-orange-600 mt-2">{{product.discount}}%</h2>
+      <h2 class="text-xl text-blue-600 mt-2">{{sellingPrice}}$</h2>
+    </div>
+   
+    
+       
+    @if(isInWishlist(product)){
+      <button mat-fab aria-label="Example icon button with a delete icon" color="primary"(click)="removeFromWishlist(product)">
+        <mat-icon >favorite</mat-icon>
+      </button>
+    }
+    @else{
+    <button mat-fab aria-label="Example icon button with a heart icon" color="primary" (click)="addToWishlist(product)">
+      <mat-icon class="text-black-800">favorite_border</mat-icon>
+    </button>}
+    <button mat-fab aria-label="Example icon button with a heart icon" color="primary"  (click)="addtoCart(product)">
+    @if (isInCart(product._id!)) {
+      <mat-icon class="text-black-800">remove_shopping_cart</mat-icon> 
+      
+     }
+     @else{
+      <mat-icon >add_shopping_cart</mat-icon>
+      
+     }
+    </button>
+  </div>
+</div>

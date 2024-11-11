@@ -1,0 +1,13 @@
+header {
+    .container {
+      @apply flex justify-between items-center py-4;
+    }
+    
+    nav {
+      background-color: #f7fafc; // Tailwind's gray-200
+      .container {
+        @apply flex space-x-4 py-2;
+      }
+    }
+  }
+  

@@ -1,0 +1,201 @@
+<div class="min-h-screen bg-gray-100 py-12">
+  @if (orderstep==0) {
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+      <h1 class="text-3xl font-bold text-gray-900 mb-8">Your Shopping Cart</h1>
+
+      @for (item of cartitems; track $index) {
+        
+          <div class="w-full md:w-1/4">
+            <img [src]="item?.product?.images?.[0]" alt="Product Image" class="w-full h-48 object-cover rounded-lg">
+          </div>
+          <div class="w-full md:w-3/4 space-y-4">
+            <div class="flex justify-between items-start">
+              <h2 class="text-xl font-semibold text-gray-800">{{item?.product?.name}}</h2>
+              <button class="text-red-500 hover:text-red-700" (click)="removeFromCart(item?.product?._id!)">
+                <mat-icon>close</mat-icon>
+              </button>
+            </div>
+            <p class="text-gray-600">{{item?.product?.shortDescription}}</p>
+            <div class="flex flex-wrap gap-4 items-center justify-between">
+              <div class="space-y-1">
+               
+                <div class="text-sm text-green-600">Discount: {{item?.product?.discount}}%</div>
+                <div class="text-lg font-bold text-gray-900">Final Price: {{sellingPrice(item?.product!)}}$</div>
+              </div>
+              <div class="flex items-center border rounded-lg overflow-hidden">
+                <button 
+                  class="px-4 py-2 bg-gray-100 hover:bg-gray-200 transition-colors" 
+                  (click)="addToCart(item?.product?._id!, -1)">
+                  -
+                </button>
+                <input 
+                  type="text" 
+                  class="w-16 text-center border-x px-2 py-2" 
+                  [value]="item?.quantity"
+                  readonly>
+                <button 
+                  class="px-4 py-2 bg-gray-100 hover:bg-gray-200 transition-colors"
+                  (click)="addToCart(item?.product?._id!, +1)">
+                  +
+                </button>
+              </div>
+              <div class="text-lg font-bold text-gray-900">
+                Total Amount: {{sellingPrice(item.product!) * item.quantity}}$
+              </div>
+            </div>
+          </div>
+       
+      }
+
+      <div class="mt-8 pt-6 border-t border-gray-200">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div class="text-xl font-bold">
+            Cart Total: {{TotalPrice}}$
+          </div>
+          <div class="text-lg">
+            Total Items: {{ItemCount}}
+          </div>
+          <div class="flex gap-4">
+            <button 
+              routerLink="/" 
+              class="px-6 py-3 bg-white border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition-colors">
+              Continue Shopping
+            </button>
+            <button 
+              (click)="checkout()"
+              
+              class="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>}
+  @else if (orderstep==1) {
+    <div class="bg-white rounded-lg justify-center shadow-lg p-6">
+      <h1 class="text-3xl font-bold  text-center text-gray-900 mb-8">Your Order Address</h1>
+      <form class="max-w-2xl mx-auto space-y-6" [formGroup]="orderform" (ngSubmit)="order()">
+        <!-- Contact Information -->
+        <div>
+          <h2 class="text-xl font-semibold mb-4">Contact Information</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700" for="name">Full Name</label>
+              <input type="text" formControlName="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700" for="phone">Phone Number</label>
+              <input type="tel" formControlName="phone" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Shipping Address -->
+        <div>
+          <h2 class="text-xl font-semibold mb-4">Shipping Address</h2>
+          <div class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700" for="address">Street Address</label>
+              <input type="text" formControlName="address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700" for="city">City</label>
+                <input type="text" formControlName="city" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700" for="state">State</label>
+                <input type="text" formControlName="state" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700" for="zip">ZIP Code</label>
+                <input type="text" formControlName="zip" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex justify-end space-x-4 pt-4">
+          <button type="button" 
+                  class="px-6 py-3 bg-white border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition-colors"
+                  (click)="orderstep = 0">
+            Back to Cart
+          </button>
+          <button type="submit" 
+                  class="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+                  
+                  (click)="orderstep=2">
+            Continue to Payment
+          </button>
+        </div>
+      </form>
+    </div>
+  }@else if (orderstep==2) {
+    <div class="max-w-3xl mx-auto p-6">
+      <h2 class="text-2xl font-semibold mb-6">Payment Method</h2>
+      <div class="bg-white rounded-lg shadow p-6">
+        <div class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Select Payment Method</label>
+            <div class="space-y-2">
+              <div class="flex items-center">
+                <input type="radio" id="credit" value="credit" [(ngModel)]="selectedPaymentMethod" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500">
+                <label for="credit" class="ml-2 text-sm font-medium text-gray-700">Credit Card</label>
+              </div>
+              <div class="flex items-center">
+                <input type="radio" id="debit" value="debit" [(ngModel)]="selectedPaymentMethod" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500">
+                <label for="debit" class="ml-2 text-sm font-medium text-gray-700">Debit Card</label>
+              </div>
+              <div class="flex items-center">
+                <input type="radio" id="upi" value="upi" [(ngModel)]="selectedPaymentMethod" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500">
+                <label for="upi" class="ml-2 text-sm font-medium text-gray-700">Paypal</label>
+              </div>
+              <div class="flex items-center">
+                <input type="radio" id="cod" value="cod" [(ngModel)]="selectedPaymentMethod" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500">
+                <label for="cod" class="ml-2 text-sm font-medium text-gray-700">Cash on Delivery</label>
+              </div>
+            </div>
+          </div>
+
+          @if (selectedPaymentMethod === 'credit' || selectedPaymentMethod === 'debit') {
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Card Number</label>
+              <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="1234 5678 9012 3456">
+            </div>
+            
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700">Expiration Date</label>
+                <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="MM/YY">
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700">CVV</label>
+                <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="123">
+              </div>
+            </div>
+          } @else if (selectedPaymentMethod === 'upi') {
+            <div>
+              <label class="block text-sm font-medium text-gray-700"> ID</label>
+              <input type="text" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" placeholder="username@upi">
+            </div>
+          } @else if (selectedPaymentMethod === 'cod') {
+            <div class="p-4 bg-gray-50 rounded-md">
+              <p class="text-sm text-gray-600">Cash payment will be collected at the time of delivery</p>
+            </div>
+          }
+
+          <div class="flex justify-end space-x-4 pt-6">
+            <button type="button" class="px-6 py-3 bg-white border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition-colors" (click)="orderstep = 1">
+              Back
+            </button>
+            <button type="button" (click)="placeorder()"  class="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
+              Place Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>}
+</div>

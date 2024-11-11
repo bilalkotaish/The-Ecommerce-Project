@@ -1,0 +1,19 @@
+.container {
+    @apply max-w-md mx-auto p-4 pt-6 md:p-6 lg:p-12;
+  }
+  
+  .register-form {
+    @apply max-w-md mx-auto bg-white rounded-lg shadow-md p-4 md:p-6 lg:p-12;
+  }
+  
+  label {
+    @apply block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2;
+  }
+  
+  input {
+    @apply appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white;
+  }
+  
+  button {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }

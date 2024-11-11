@@ -1,0 +1,55 @@
+<div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
+    <div class="max-w-xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="bg-gradient-to-r from-gray-500 to-gray-600 p-6">
+            <h2 class="text-3xl font-bold text-white">User Profile</h2>
+        </div>
+        
+        <div class="p-6">
+            <div class="space-y-6">
+                <div class="flex items-center border-b pb-4">
+                    <mat-icon class="text-gray-500 mr-3">person</mat-icon>
+                    <div>
+                        <p class="text-sm text-gray-500">Name</p>
+                        <p class="text-lg font-semibold">{{authservice.Username}}</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center border-b pb-4">
+                    <mat-icon class="text-gray-500 mr-3">email</mat-icon>
+                    <div>
+                        <p class="text-sm text-gray-500">Email</p>
+                        <p class="text-lg font-semibold">{{authservice.UserEmail}}</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <a routerLink="/wishlist" class="flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                        <mat-icon class="mr-2">favorite</mat-icon>
+                        <span class="text-lg font-medium">My Wishlist</span>
+                    </a>
+                </div>
+                <div class="flex items-center">
+                  <a routerLink="/cart" class="flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                      <mat-icon class="mr-2">shopping_cart</mat-icon>
+                      <span class="text-lg font-medium">My Shopping Cart</span>
+                  </a>
+              </div>
+              <div class="flex items-center">
+                <a routerLink="/orders" class="flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                    <mat-icon class="mr-2">receipt</mat-icon>
+                    <span class="text-lg font-medium">My Orders</span>
+                    
+                </a>
+            </div>
+            </div>
+           
+
+            <div class="mt-8 flex justify-end">
+                <button routerLink="/" class="px-6 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-lg transition-colors flex items-center">
+                    <mat-icon class="mr-2">arrow_back</mat-icon>
+                    Back to Home
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

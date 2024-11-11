@@ -1,0 +1,66 @@
+<header class="bg-white shadow">
+  <div class="container mx-auto flex justify-between items-center py-4">
+    <div class="logo"  [routerLink]="'/'">
+     <h1> My Ecommerce Shop</h1>
+    </div>
+
+    <div class="flex-grow flex justify-center">
+      <div class="relative w-1/2">
+        <input
+          type="text"
+          placeholder="Search..."
+         (click)="onSearch($event)"
+          [(ngModel)]="searchTerm"
+          class="border rounded-full pl-10 pr-4 py-2 w-full focus:outline-none focus:ring focus:ring-blue-500"
+        />
+        <svg
+          class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          
+        >
+          <path d="M13.44 12.56A6.5 6.5 0 1 0 12.56 13.44l3.36 3.36a1 1 0 0 0 1.42-1.42l-3.36-3.36zM14 8.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="profile flex items-center">
+      @if (authservice.isAdmin) {
+        <span class="text-lg  mr-2 " routerLink="/admin">{{authservice.Username}}</span>}
+      @else {
+        <span class="text-lg  mr-2"  >{{authservice.Username}}</span>
+      }
+      
+      @if (authservice.isLoggedin) {
+      <span class="text-lg  mr-2" (click)="logout()">Logout</span>
+     
+
+    }
+      @else {
+        <span class="text-lg  mr-2" routerLink="/login">Login</span>
+        <span class="text-lg  mr-2" routerLink="/register">Register</span>
+      }
+      <svg class="w-6 h-6 text-gray-600" fill="none" 
+      routerLink="/profile"
+      stroke="currentColor"
+       viewBox="0 0 24 24" 
+       xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+    </div>
+  </div>
+
+  <nav class="bg-gray-200">
+    <div class="container mx-auto flex space-x-4 py-2">
+      @for (category of categorylist; track category._id) {
+        <a 
+          (click)="searchCategory(category._id!)" 
+          class="text-gray-800 hover:text-blue-500 cursor-pointer capitalize transition-colors duration-200"
+        >
+          {{ category.name }}
+        </a>
+      }
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,82 @@
+<div class="container mx-auto p-6">
+  <div class="flex flex-col md:flex-row">
+    <!-- Product Gallery -->
+    <div class="md:w-1/2">
+      <div class="flex flex-col">
+        <img [src]="MainImage" alt="Product Image" class="w-80 h-60 rounded-lg shadow-lg mb-4">
+        <div class="flex space-x-2" >
+          <div *ngFor="let url of product.images; let i = index">
+            <img [src]="url" alt="Product Image" (click)="changeimage(url)" class="w-20 h-20 rounded-lg shadow-lg mb-2" [class.border-2]="i === 0" [class.border-blue-500]="i === 0">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="md:w-1/2 md:pl-6">
+      <h1 class="text-3xl font-bold text-gray-800">{{product.name}}</h1>
+      <div class="flex gap-8">
+        <p class="text-xl text-red-600 mt-2"><s class="color-gray">{{product.purchasePrice}}$ </s></p>
+        <p class="text-xl text-orange-600 mt-2">{{product.discount}}%</p>
+        <p class="text-xl text-blue-600 mt-2">{{sellingPrice}}$</p>
+      </div>
+      <p class="text-gray-700 mt-4">
+        {{product.shortDescription}}</p>
+
+      @if(isInWishlist(product)){
+        <button mat-raised-button class="shadow" color="primary" (click)="removeFromWishlist(product)">
+          <mat-icon>favorite</mat-icon>
+          <span class="ml-2">Remove from Wishlist</span>
+        </button>
+      }
+      @else{
+        <button mat-raised-button class="shadow" color="primary" (click)="addToWishlist(product)">
+          <mat-icon class="text-black-800">favorite_border</mat-icon>
+          <span class="ml-2">Add to Wishlist</span>
+        </button>
+      }
+
+      @if (isInCart(product._id!)) {
+        <button mat-raised-button class="shadow" color="primary" (click)="addtoCart(product)">
+          <mat-icon>remove_shopping_cart</mat-icon>
+          <span class="ml-2">Remove from Cart</span>
+        </button>
+      }
+      @else{
+        <button mat-raised-button class="shadow" color="primary" (click)="addtoCart(product)">
+          <mat-icon>add_shopping_cart</mat-icon>
+          <span class="ml-2">Add to Cart</span>
+        </button>
+      }
+    </div>
+  </div>
+
+  <!-- Additional Information Section -->
+  <div class="mt-10">
+    <h2 class="text-2xl font-bold text-gray-800">Product Details</h2>
+    <p class="text-gray-700 mt-2">
+      {{product.description}}
+    </p>
+  </div>
+
+  @if (similarProduct.length) {
+    <div class="mt-6">
+      <h1 class="text-2xl font-semibold text-center mb-6">Similar Products</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-6 gap-1">
+        @for (products of similarProduct; track $index) {
+          <app-product-card [product]="products"></app-product-card>
+        }
+      </div>
+    </div>
+  }
+
+  <div class="mt-10">
+    <div class="mt-4">
+      <h3 class="font-semibold">Leave a Review:</h3>
+      <textarea  class="border border-gray-300 rounded-md p-2 w-full mt-2" rows="4" placeholder="Write your review here..."></textarea>
+      <button  class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 transition duration-200 mt-2">
+        Submit Review
+      </button>
+    </div>
+  </div>
+</div>
