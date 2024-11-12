@@ -81,6 +81,10 @@ export class ProductlistComponent {
       this.page--;
       this.getProducts()
     }
+    last(){
+      this.page=this.products.length/this.pageSize;
+      this.getProducts()
+    }
    
       
   
