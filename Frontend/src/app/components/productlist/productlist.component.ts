@@ -73,6 +73,14 @@ export class ProductlistComponent {
       this.getProducts()
 
     }
+    next(){
+      this.page++;
+      this.getProducts()
+    }
+    previous(){
+      this.page--;
+      this.getProducts()
+    }
    
       
   
