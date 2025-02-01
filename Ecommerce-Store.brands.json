@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "6707bae3d0d397b3d87ce2b9"
+  },
+  "name": "Zara",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707baffd0d397b3d87ce2bc"
+  },
+  "name": "Arrow",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "name": "MaaFashion",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707bb5ed0d397b3d87ce2c2"
+  },
+  "name": "MenPlanet",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707bb70d0d397b3d87ce2c5"
+  },
+  "name": "Sam&Jack",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707bb79d0d397b3d87ce2c8"
+  },
+  "name": "Samsung",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707bb89d0d397b3d87ce2cb"
+  },
+  "name": "APPLE",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707bba6d0d397b3d87ce2ce"
+  },
+  "name": "HighStar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673218dd178c62a1a3a69bec"
+  },
+  "name": "Asus",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673218f6178c62a1a3a69bef"
+  },
+  "name": "Lenovo",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732337c1e0c768d42f12102"
+  },
+  "name": "Acer",
+  "__v": 0
+}]

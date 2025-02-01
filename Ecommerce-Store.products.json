@@ -1,0 +1,670 @@
+[{
+  "_id": {
+    "$oid": "6707e10cd0d397b3d87ce2d4"
+  },
+  "name": "Men Shirt",
+  "shortDescription": "Slim Fit Solid Spread Collar Casual ",
+  "description": "Enhance your look by wearing this trendy shirt. Team it with a pair of Sharp Looking Chinos and Tassel Loafers for a Dapper Look",
+  "purchasePrice": 469,
+  "discount": 79,
+  "images": [
+    "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/j/p/b/4xl-c301-dustypink-dennis-lingo-original-imah47s8skc6qvtx.jpeg?q=70&crop=false"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bae3d0d397b3d87ce2b9"
+  },
+  "__v": 0,
+  "isNew": false,
+  "isfeatured": true
+},
+{
+  "_id": {
+    "$oid": "6707e1c5d0d397b3d87ce2d9"
+  },
+  "name": "Men Shirt",
+  "shortDescription": "Slim Fit Striped Button Down Collar Casual",
+  "description": "Style Code\nTBH-GLORY-BR\nFit\nSlim\nFabric\nCotton Linen\nSleeve\nFull Sleeve\nPattern\nStriped",
+  "purchasePrice": 774,
+  "discount": 69,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/g/x/y/l-tbh-glory-br-the-bear-house-original-imagr828bzybah9c.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bae3d0d397b3d87ce2b9"
+  },
+  "__v": 0,
+  "isNew": true,
+  "isfeatured": false
+},
+{
+  "_id": {
+    "$oid": "6707e255d0d397b3d87ce2de"
+  },
+  "name": "Men Pants",
+  "shortDescription": " Slim Fit Grey Cotton Blend",
+  "description": "it\nSlim Fit\nOccasion\nCasual\nColor\nGrey\nPack of\n1\nType\nChinos",
+  "purchasePrice": 559,
+  "discount": 69,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/z/m/y/38-chino-grey-urbano-fashion-original-imahfffwdeacfahe.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "__v": 0,
+  "isNew": false,
+  "isfeatured": true
+},
+{
+  "_id": {
+    "$oid": "6707e337d0d397b3d87ce2e3"
+  },
+  "name": "Men Pant",
+  "shortDescription": " Slim Fit Cream Polyester ",
+  "description": "A flat front slim fit trousers made of fine poly blend specially crafted for stylish look. It features front slant pockets and two back pockets. A button and zip closures fastens the pants in place while the slim fit keeps you in style.",
+  "purchasePrice": 429,
+  "discount": 59,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/m/8/d/28-pro-gst-bg-provogue-original-imahyrjae7zz96wd.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb5ed0d397b3d87ce2c2"
+  },
+  "__v": 0,
+  "isNew": true,
+  "isfeatured": false
+},
+{
+  "_id": {
+    "$oid": "6708f89f2e613b18725ef3d3"
+  },
+  "name": "Men Shirt",
+  "shortDescription": "Slim Fit Solid Spread Collar Casual ",
+  "description": "\nMachine wash as per tag, Regular Machine Wash, Do not bleach, Do not wring",
+  "purchasePrice": 472,
+  "discount": 65,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/u/i/-original-imah3bn9smegwfk8.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bae3d0d397b3d87ce2b9"
+  },
+  "__v": 0,
+  "isNew": false,
+  "isfeatured": true
+},
+{
+  "_id": {
+    "$oid": "67090bc399ad987b7212ee2c"
+  },
+  "name": "Apple iPhone 15",
+  "shortDescription": " Dynamic Island, HDR Display, True Tone, Wide Colour (P3)",
+  "description": "Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+  "purchasePrice": 1350,
+  "discount": 25,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee86fdd0bcb16bebdb00a0"
+  },
+  "brandId": {
+    "$oid": "6707bb89d0d397b3d87ce2cb"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67090c3999ad987b7212ee31"
+  },
+  "name": "SAMSUNG Galaxy A14 5G",
+  "shortDescription": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box ",
+  "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB\n16.76 cm (6.6 inch) Full HD+ Display\n50MP + 2MP + 2MP | 13MP Front Camera\n5000 mAh Lithium Ion Battery\nExynos 1330 Processor",
+  "purchasePrice": 190,
+  "discount": 10,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee86fdd0bcb16bebdb00a0"
+  },
+  "brandId": {
+    "$oid": "6707bb79d0d397b3d87ce2c8"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67090cd299ad987b7212ee39"
+  },
+  "name": "SAMSUNG Galaxy A55 5G ",
+  "shortDescription": " 1 Year Manufacturer Warranty for Device and 6 Months for In-Box ",
+  "description": "12 GB RAM | 256 GB ROM | Expandable Upto 1 TB\n16.76 cm (6.6 inch) Full HD+ Display\n50MP + 12MP + 5MP | 32MP Front Camera\n5000 mAh Battery\nSamsung Exynos 1480 Processor",
+  "purchasePrice": 560,
+  "discount": 15,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/a/-original-imahyukdvys8thac.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee86fdd0bcb16bebdb00a0"
+  },
+  "brandId": {
+    "$oid": "6707bb79d0d397b3d87ce2c8"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67090d6899ad987b7212ee41"
+  },
+  "name": "Apple iPhone 16 Pro Max",
+  "shortDescription": " 1 Year Warranty for Phone and 6 Months Warranty for In-Box",
+  "description": "1 TB ROM\n17.53 cm (6.9 inch) Super Retina XDR Display\n48MP + 48MP + 12MP | 12MP Front Camera\nA18 Pro Chip, 6 Core Processor Processor\n",
+  "purchasePrice": 2500,
+  "discount": 15,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/8/w/-original-imah4jz6qhwgukgt.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee86fdd0bcb16bebdb00a0"
+  },
+  "brandId": {
+    "$oid": "6707bb89d0d397b3d87ce2cb"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67090ee099ad987b7212ee63"
+  },
+  "name": "Apple iPhone 16 Pro",
+  "shortDescription": "1 Year Warranty for Phone and 6 Months Warranty for In-Bo",
+  "description": "1 TB ROM\n16.0 cm (6.3 inch) Super Retina XDR Display\n48MP + 48MP + 12MP | 12MP Front Camera\nA18 Pro Chip, 6 Core Processor Processor",
+  "purchasePrice": 2200,
+  "discount": 12,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/5/2/-original-imah4jywyma4j8vy.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee86fdd0bcb16bebdb00a0"
+  },
+  "brandId": {
+    "$oid": "6707bb89d0d397b3d87ce2cb"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67090f9599ad987b7212ee6b"
+  },
+  "name": "Apple Watch Series 9",
+  "shortDescription": "GPS 45mm Aluminium Case with Sport Band - S/M",
+  "description": "Powerful sensors, Advanced health features.\nWith Call Function\nTouchscreen\nFitness & Outdoor\nBattery Runtime: Upto 18 hrs",
+  "purchasePrice": 550,
+  "discount": 10,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/c/1/i/-original-imaghxg9znekcjhh.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "6707bb89d0d397b3d87ce2cb"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6709103799ad987b7212ee7b"
+  },
+  "name": "SAMSUNG Galaxy Fit3 ",
+  "shortDescription": "AMOLED Display & Aluminium Body | Upto 13Day Battery",
+  "description": "\nThe Samsung Galaxy Fit 3 Smartwatch is a holistic lifestyle companion designed to elevate your well-being, seamlessly integrating into your daily routines and adventures. Embrace a new era of wearable technology where style, functionality, and innovation converge to empower you on your journey to a healthier and more connected life. The Galaxy Fit 3 – redefining what it means to wear intelligence on your wrist.",
+  "purchasePrice": 350,
+  "discount": 15,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/p/w/z/-original-imagybqyrrzkaw7x.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "6707bb79d0d397b3d87ce2c8"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732311c1e0c768d42f120db"
+  },
+  "name": "MSI Thin 15",
+  "shortDescription": "Intel Core i5 12th Gen 12450H",
+  "description": "MSI Thin 15 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) Thin 15 B12UC-1692IN Gaming Laptop  (15.6 Inch, Cosmos Gray, 1.86 Kg)",
+  "purchasePrice": 5000,
+  "discount": 60,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/t/r/u/-original-imah3acvkdhmxkzq.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218dd178c62a1a3a69bec"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732319b1e0c768d42f120e0"
+  },
+  "name": "MSI Thin 15",
+  "shortDescription": " Intel Core i5 12th Gen 12450H",
+  "description": "MSI Thin 15 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050/144 Hz) Thin 15 B12UC-1692IN Gaming Laptop  (15.6 Inch, Cosmos Gray, 1.86 Kg)",
+  "purchasePrice": 4500,
+  "discount": 20,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/e/r/b/cx1400cka-ek0335-chromebook-asus-original-imah2f9ch5u9enbq.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218dd178c62a1a3a69bec"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673232191e0c768d42f120e8"
+  },
+  "name": "ASUS TUF Gaming F17 ",
+  "shortDescription": "AI Powered Gaming Intel Core i5",
+  "description": "AI Powered Gaming Intel Core i5 11th Gen 11400H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 2050/70 W) FX706HF-NY040W Gaming Laptop  (17.3 Inch, Graphite Black, 2.60 kg)",
+  "purchasePrice": 3500,
+  "discount": 10,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/a/k/e/fx706hf-ny040w-gaming-laptop-asus-original-imah43cfatfc5eku.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218dd178c62a1a3a69bec"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673232781e0c768d42f120ed"
+  },
+  "name": "ASUS Vivobook 16X ",
+  "shortDescription": "intel Core i5 12th Gen 12500H ",
+  "description": "ntel Core i5 12th Gen 12500H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) K3605ZC-RP587WS Gaming Laptop  (16 Inch, Cool Silver, 1.80 Kg, With MS Office)",
+  "purchasePrice": 4500,
+  "discount": 25,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/e/h/a/-original-imah4dj3ysuzgdhy.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218dd178c62a1a3a69bec"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673232fd1e0c768d42f120f5"
+  },
+  "name": "ASUS Vivobook Go 15",
+  "shortDescription": "MD Ryzen 5 Quad Core 7520U ",
+  "description": "AMD Ryzen 5 Quad Core 7520U - (8 GB/512 GB SSD/Windows 11 Home) E1504FA-NJ521WS Thin and Light Laptop  (15.6 Inch, Cool Silver, 1.63 Kg, With MS Office)",
+  "purchasePrice": 3500,
+  "discount": 25,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/u/h/s/-original-imagpxgqj6x2zkhe.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218dd178c62a1a3a69bec"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673233d71e0c768d42f1210c"
+  },
+  "name": "Acer Aspire 3",
+  "shortDescription": "intel Core i3 13th Gen 1305U",
+  "description": " Intel Core i3 13th Gen 1305U - (8 GB/512 GB SSD/Windows 11 Home) A324-53 Thin and Light Laptop  (14 Inch, Steel Gray, 1.45 Kg)",
+  "purchasePrice": 2500,
+  "discount": 10,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/6/z/p/-original-imah5g8npsp4g78c.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "6732337c1e0c768d42f12102"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673234711e0c768d42f1211a"
+  },
+  "name": "Lenovo Thinkbook",
+  "shortDescription": "MD Ryzen 3 Quad Core 7330U ",
+  "description": "Lenovo AMD Ryzen 3 Quad Core 7330U - (8 GB/512 GB SSD/Windows 11 Home) ThinkBook 15 G5 Thin and Light Laptop  (15.6 Inch, Mineral Grey, 1.70 Kg)",
+  "purchasePrice": 3500,
+  "discount": 45,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/e/u/s/thinkbook-15-g5-thin-and-light-laptop-lenovo-original-imah2wy2p3cxdbyj.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218f6178c62a1a3a69bef"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732350c1e0c768d42f12135"
+  },
+  "name": "Lenovo IdeaPad",
+  "shortDescription": " Intel Celeron Dual Core N4020",
+  "description": "Lenovo IdeaPad 1 Intel Celeron Dual Core N4020 - (8 GB/512 GB SSD/Windows 11 Home) 14IGL7 Thin and Light Laptop  (14 Inch, Cloud Grey, 1.3 Kg, With MS Office)",
+  "purchasePrice": 1780,
+  "discount": 15,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/s/f/o/-original-imahyfx7dphgxhg9.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218f6178c62a1a3a69bef"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673235cb1e0c768d42f12148"
+  },
+  "name": "Lenovo Thin and Light",
+  "shortDescription": "Intel Core i7 12th Gen 1255U",
+  "description": "Lenovo Intel Core i7 12th Gen 1255U - (16 GB/512 GB SSD/Windows 11 Home) V15 G3 IAP Thin and Light Laptop  (15.6 Inch, Iron Grey, 1.7 Kg)",
+  "purchasePrice": 1200,
+  "discount": 18,
+  "images": [
+    "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/d/t/c/v15-g2-alc-laptop-lenovo-original-imaghq2ffspmtfuh.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "brandId": {
+    "$oid": "673218f6178c62a1a3a69bef"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673236aa1e0c768d42f12154"
+  },
+  "name": "Women T-Shirt",
+  "shortDescription": "Women Self Design Round Neck Wool Blend Pink T-Shirt",
+  "description": "Women Double lined Seamless Tank Tops Summer Cap Sleeve Basic Cami Top Shirt Slim Racerback Cropped Tank Tops Material:75%Nylon+25%Spandex,Polester Lycra which are super soft, stretchable, flexible and breathable, comfortable to wear. Features: Half Sleeve Tops, halter neck,racer back,cropped length, Cute long tunic design, Fitted, Pullover top. Basic and Chic. Match - Perfect wear with jeans or leggings in spring, summer, fall or winter. You would get compliments when you wear this Crop Tops For Women.",
+  "purchasePrice": 150,
+  "discount": 25,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/g/u/p/l-round-neck-t-shirt-zilcon-original-imagsuyndp8tata3.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732373d1e0c768d42f12167"
+  },
+  "name": "Women Black T-Shirt",
+  "shortDescription": "Women Solid Round Neck Poly Cotton Black T-Shirt",
+  "description": "This Unisex Compression T-shirt feature four way stretchable fabric that provides a perfect fit and stretch. Insta-wick fabric helps keeps you cool when the action heats up, while the flat seams feel smooth against your skin.",
+  "purchasePrice": 100,
+  "discount": 15,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/7/n/t/xl-vibes-oversize-black-jibber-jabber-original-imahfcjdhj7hfefs.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bae3d0d397b3d87ce2b9"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673239901e0c768d42f12187"
+  },
+  "name": "Women Shirt",
+  "shortDescription": "Regular Fit Striped Cut Away Collar Casual ",
+  "description": "1. Elevate your wardrobe with our imported popcorn fabric half sleeve shirt designed specifically for women. 2. Crafted with high-quality material, this shirt offers both comfort and style, making it a versatile piece for any occasion. 3. The unique texture of the popcorn fabric adds a touch of sophistication to this classic silhouette, perfect for pairing with your favorite jeans or trousers. 4. Whether you're dressing up for a night out or keeping it casual during the day, this shirt is sure to become a staple in your closet.",
+  "purchasePrice": 130,
+  "discount": 20,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/t/h/s/xl-popcorn-shirt-for-women-jinik-original-imahyjeu7qgmfwgs.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67323c471e0c768d42f121cf"
+  },
+  "name": "Casual Top",
+  "shortDescription": "Sleeveless Solid Women Maroon ",
+  "description": "Neck\nRound Neck\nSleeve Style\nSleeveless\nSleeve Length\nSleeveless\nFit\nSlim\nFabric\nLycra Blend\nType\nTank Top\nPattern\nSolid\n",
+  "purchasePrice": 120,
+  "discount": 10,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/top/b/a/n/s-flipkart-sania-multi-dream-beauty-fashion-original-imaghmrwzzkhc4ph.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67323d6e1e0c768d42f121e7"
+  },
+  "name": "Casual Pink Top",
+  "shortDescription": "Casual Regular Sleeves Solid Women Pink Top",
+  "description": "Neck\nRound Neck\nSleeve Style\nRegular Sleeves\nSleeve Length\nFull Sleeve\nFit\nOversized\nFabric\nCotton Blend\nType\nBoxy Top",
+  "purchasePrice": 150,
+  "discount": 12,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/top/h/o/u/xl-1-wt-25-rahi-trendz-original-imagqkzxu4qdw5vh.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67323dfa1e0c768d42f121f3"
+  },
+  "name": "Casual  Black Top",
+  "shortDescription": "Regular Sleeves Striped Women",
+  "description": "This is a Striped-color tank top from Sollobell, designed in a form-fitted style. It features a U neckline and Short Sleeves design, making it perfect for layering or wearing on its own. The size ensures a comfortable and flattering fit for smaller frames.",
+  "purchasePrice": 120,
+  "discount": 20,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/top/l/e/k/l-1-sb-so-032-sollobell-original-imah3bp6n2fyabus.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb70d0d397b3d87ce2c5"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67323f241e0c768d42f12205"
+  },
+  "name": "Casual Top",
+  "shortDescription": " Sleeveless Printed Women Multicolor",
+  "description": "\nReturns is a scheme provided by respective sellers directly under this policy in terms of which the option of exchange, replacement and/ or refund is offered by the respective sellers to you. All products listed under a particular category may not have the same returns policy. For all products, the returns/replacement policy provided on the product page shall prevail over the general returns policy. Do refer the respective item's applicable return/replacement policy on the product page for any exceptions to this returns policy and the table below",
+  "purchasePrice": 120,
+  "discount": 18,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/top/t/i/m/m-1-l3516-3154-jovo-original-imah3t62kypgpgtu.jpeg?q=70",
+    null
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "isfeatured": false,
+  "isNew": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673240071e0c768d42f12214"
+  },
+  "name": "Casual Top",
+  "shortDescription": " Puff Sleeves Solid Women Black",
+  "description": "Neck\nSweetheart Neck\nSleeve Style\nPuff Sleeves\nFit\nRegular\nFabric\nPolyester\nType\nRegular Top\nBelt Included\nNo",
+  "purchasePrice": 130,
+  "discount": 15,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/top/d/r/i/m-top00-mentos-black-maheshvi-original-imaguf8jfszck6ga.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb3cd0d397b3d87ce2bf"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673240981e0c768d42f12236"
+  },
+  "name": "Casual  Top",
+  "shortDescription": "Regular Sleeves Solid Women Black",
+  "description": "Neck\nRound Neck\nSleeve Style\nRegular Sleeves\nSleeve Length\nFull Sleeve\nFit\nSlim\nFabric\nPolyester\nType\nCrop Top",
+  "purchasePrice": 130,
+  "discount": 33,
+  "images": [
+    "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-top/e/y/b/xl-1-shopsy-top-tally-red-dream-beauty-fashion-original-imagkhzccs6mftg5.jpeg?q=70"
+  ],
+  "categoryId": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "brandId": {
+    "$oid": "6707bb70d0d397b3d87ce2c5"
+  },
+  "isfeatured": true,
+  "isNew": false,
+  "__v": 0
+}]

@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "66ee86f1d0bcb16bebdb009e"
+  },
+  "name": "grocery",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee86fdd0bcb16bebdb00a0"
+  },
+  "name": "mobiles",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee8708d0bcb16bebdb00a2"
+  },
+  "name": "home&furniture",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee8714d0bcb16bebdb00a4"
+  },
+  "name": "electronics",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee871dd0bcb16bebdb00a6"
+  },
+  "name": "appliances",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee872bd0bcb16bebdb00a8"
+  },
+  "name": "sports",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ee8736d0bcb16bebdb00aa"
+  },
+  "name": "Fashion",
+  "__v": 0
+}]

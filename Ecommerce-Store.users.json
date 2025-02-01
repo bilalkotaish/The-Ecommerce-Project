@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "67094dab6051b5486412bd27"
+  },
+  "name": "bilal kotaish",
+  "email": "bilalkotaish2000@gmail.com",
+  "password": "$2b$10$aouegrtvAGFKqsTjHIb4mOXmRsFk5uxWXp/O3sV64mFT6W3uiO2eq",
+  "__v": 0,
+  "isAdmin": true
+},
+{
+  "_id": {
+    "$oid": "670989437ce8b4458d775603"
+  },
+  "name": "bilal",
+  "email": "bilal@gmail.com",
+  "password": "$2b$10$PS2u8TuKMSCvo0MbKZJTC.3D519oUccTHpiKDf24daPbSvZNtdGhu",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67098ad47ce8b4458d775607"
+  },
+  "name": "bilal",
+  "email": "bilal@gmail.com",
+  "password": "$2b$10$KaYwcKPlHGZkSBHGVdNVuuigJMMgjMyz63qzbOrbCI5rsIctAmpBK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672366a09b8dce8f1e6cf7d7"
+  },
+  "name": "BILAL",
+  "email": "bilal1@gmail.com",
+  "password": "$2b$10$WXNnFHUGQODlXMFq2KbDPuz3kh7hrrxUUqxoudrvEKWGp9M0T25We",
+  "__v": 0
+}]

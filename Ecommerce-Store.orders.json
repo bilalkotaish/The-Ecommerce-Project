@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "6730d131ef701871180d2703"
+  },
+  "userId": {
+    "$oid": "67094dab6051b5486412bd27"
+  },
+  "date": {
+    "$date": "2024-11-10T15:28:49.008Z"
+  },
+  "items": [
+    {
+      "productId": {
+        "_id": "67090bc399ad987b7212ee2c",
+        "name": "Apple iPhone 15",
+        "shortDescription": " Dynamic Island, HDR Display, True Tone, Wide Colour (P3)",
+        "description": "Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+        "purchasePrice": 1350,
+        "discount": 25,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb89d0d397b3d87ce2cb",
+        "isfeatured": true,
+        "isNew": false,
+        "__v": 0
+      },
+      "quantity": 1
+    }
+  ],
+  "paymentMethod": "cod",
+  "address": {
+    "name": "aad",
+    "address": "asdadasd",
+    "phone": "78994154",
+    "city": "sad",
+    "state": "ijpoklj",
+    "zip": "56465"
+  },
+  "status": "completed",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6730f33e67fb1d8e1f936fea"
+  },
+  "userId": {
+    "$oid": "670989437ce8b4458d775603"
+  },
+  "date": {
+    "$date": "2024-11-10T17:54:06.635Z"
+  },
+  "items": [
+    {
+      "productId": {
+        "_id": "6707e255d0d397b3d87ce2de",
+        "name": "Men Pants",
+        "shortDescription": " Slim Fit Grey Cotton Blend",
+        "description": "it\nSlim Fit\nOccasion\nCasual\nColor\nGrey\nPack of\n1\nType\nChinos",
+        "purchasePrice": 559,
+        "discount": 69,
+        "images": [
+          "https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/z/m/y/38-chino-grey-urbano-fashion-original-imahfffwdeacfahe.jpeg?q=70"
+        ],
+        "categoryId": "66ee8736d0bcb16bebdb00aa",
+        "brandId": "6707bb3cd0d397b3d87ce2bf",
+        "__v": 0,
+        "isNew": false,
+        "isfeatured": true
+      },
+      "quantity": 32
+    },
+    {
+      "productId": {
+        "_id": "6708f89f2e613b18725ef3d3",
+        "name": "Men Shirt",
+        "shortDescription": "Slim Fit Solid Spread Collar Casual ",
+        "description": "\nMachine wash as per tag, Regular Machine Wash, Do not bleach, Do not wring",
+        "purchasePrice": 472,
+        "discount": 65,
+        "images": [
+          "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/l/u/i/-original-imah3bn9smegwfk8.jpeg?q=70"
+        ],
+        "categoryId": "66ee8736d0bcb16bebdb00aa",
+        "brandId": "6707bae3d0d397b3d87ce2b9",
+        "__v": 0,
+        "isNew": false,
+        "isfeatured": true
+      },
+      "quantity": 32
+    },
+    {
+      "productId": {
+        "_id": "67090bc399ad987b7212ee2c",
+        "name": "Apple iPhone 15",
+        "shortDescription": " Dynamic Island, HDR Display, True Tone, Wide Colour (P3)",
+        "description": "Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+        "purchasePrice": 1350,
+        "discount": 25,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb89d0d397b3d87ce2cb",
+        "isfeatured": true,
+        "isNew": false,
+        "__v": 0
+      },
+      "quantity": 12
+    },
+    {
+      "productId": {
+        "_id": "6707e1c5d0d397b3d87ce2d9",
+        "name": "Men Shirt",
+        "shortDescription": "Slim Fit Striped Button Down Collar Casual",
+        "description": "Style Code\nTBH-GLORY-BR\nFit\nSlim\nFabric\nCotton Linen\nSleeve\nFull Sleeve\nPattern\nStriped",
+        "purchasePrice": 774,
+        "discount": 69,
+        "images": [
+          "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/g/x/y/l-tbh-glory-br-the-bear-house-original-imagr828bzybah9c.jpeg?q=70"
+        ],
+        "categoryId": "66ee8736d0bcb16bebdb00aa",
+        "brandId": "6707bae3d0d397b3d87ce2b9",
+        "__v": 0,
+        "isNew": true,
+        "isfeatured": false
+      },
+      "quantity": 2
+    },
+    {
+      "productId": {
+        "_id": "67090d6899ad987b7212ee41",
+        "name": "Apple iPhone 16 Pro Max",
+        "shortDescription": " 1 Year Warranty for Phone and 6 Months Warranty for In-Box",
+        "description": "1 TB ROM\n17.53 cm (6.9 inch) Super Retina XDR Display\n48MP + 48MP + 12MP | 12MP Front Camera\nA18 Pro Chip, 6 Core Processor Processor\n",
+        "purchasePrice": 2500,
+        "discount": 15,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/8/w/-original-imah4jz6qhwgukgt.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb89d0d397b3d87ce2cb",
+        "isfeatured": false,
+        "isNew": true,
+        "__v": 0
+      },
+      "quantity": 4
+    },
+    {
+      "productId": {
+        "_id": "6707e10cd0d397b3d87ce2d4",
+        "name": "Men Shirt",
+        "shortDescription": "Slim Fit Solid Spread Collar Casual ",
+        "description": "Enhance your look by wearing this trendy shirt. Team it with a pair of Sharp Looking Chinos and Tassel Loafers for a Dapper Look",
+        "purchasePrice": 469,
+        "discount": 79,
+        "images": [
+          "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/j/p/b/4xl-c301-dustypink-dennis-lingo-original-imah47s8skc6qvtx.jpeg?q=70&crop=false"
+        ],
+        "categoryId": "66ee8736d0bcb16bebdb00aa",
+        "brandId": "6707bae3d0d397b3d87ce2b9",
+        "__v": 0,
+        "isNew": false,
+        "isfeatured": true
+      },
+      "quantity": 2
+    },
+    {
+      "productId": {
+        "_id": "67090cd299ad987b7212ee39",
+        "name": "SAMSUNG Galaxy A55 5G ",
+        "shortDescription": " 1 Year Manufacturer Warranty for Device and 6 Months for In-Box ",
+        "description": "12 GB RAM | 256 GB ROM | Expandable Upto 1 TB\n16.76 cm (6.6 inch) Full HD+ Display\n50MP + 12MP + 5MP | 32MP Front Camera\n5000 mAh Battery\nSamsung Exynos 1480 Processor",
+        "purchasePrice": 560,
+        "discount": 15,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/a/-original-imahyukdvys8thac.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb79d0d397b3d87ce2c8",
+        "isfeatured": true,
+        "isNew": false,
+        "__v": 0
+      },
+      "quantity": 3
+    },
+    {
+      "productId": {
+        "_id": "67090c3999ad987b7212ee31",
+        "name": "SAMSUNG Galaxy A14 5G",
+        "shortDescription": "1 Year Manufacturer Warranty for Device and 6 Months for In-Box ",
+        "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB\n16.76 cm (6.6 inch) Full HD+ Display\n50MP + 2MP + 2MP | 13MP Front Camera\n5000 mAh Lithium Ion Battery\nExynos 1330 Processor",
+        "purchasePrice": 190,
+        "discount": 10,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/y/c/-original-imah4sssdf9pgz3e.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb79d0d397b3d87ce2c8",
+        "isfeatured": false,
+        "isNew": true,
+        "__v": 0
+      },
+      "quantity": 4
+    },
+    {
+      "productId": {
+        "_id": "67090ee099ad987b7212ee63",
+        "name": "Apple iPhone 16 Pro",
+        "shortDescription": "1 Year Warranty for Phone and 6 Months Warranty for In-Bo",
+        "description": "1 TB ROM\n16.0 cm (6.3 inch) Super Retina XDR Display\n48MP + 48MP + 12MP | 12MP Front Camera\nA18 Pro Chip, 6 Core Processor Processor",
+        "purchasePrice": 2200,
+        "discount": 12,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/5/2/-original-imah4jywyma4j8vy.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb89d0d397b3d87ce2cb",
+        "isfeatured": true,
+        "isNew": false,
+        "__v": 0
+      },
+      "quantity": 1
+    },
+    {
+      "productId": {
+        "_id": "67090f9599ad987b7212ee6b",
+        "name": "Apple Watch Series 9",
+        "shortDescription": "GPS 45mm Aluminium Case with Sport Band - S/M",
+        "description": "Powerful sensors, Advanced health features.\nWith Call Function\nTouchscreen\nFitness & Outdoor\nBattery Runtime: Upto 18 hrs",
+        "purchasePrice": 550,
+        "discount": 10,
+        "images": [
+          "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/c/1/i/-original-imaghxg9znekcjhh.jpeg?q=70"
+        ],
+        "categoryId": "66ee8714d0bcb16bebdb00a4",
+        "brandId": "6707bb89d0d397b3d87ce2cb",
+        "isfeatured": false,
+        "isNew": true,
+        "__v": 0
+      },
+      "quantity": 1
+    }
+  ],
+  "paymentMethod": "upi",
+  "address": {
+    "name": "aad",
+    "address": "asdadasd",
+    "phone": "78994154",
+    "city": "sad",
+    "state": "reyer",
+    "zip": "56465"
+  },
+  "status": "cancelled",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6732086cd394521c49fe2665"
+  },
+  "userId": {
+    "$oid": "67094dab6051b5486412bd27"
+  },
+  "date": {
+    "$date": "2024-11-11T13:36:44.450Z"
+  },
+  "items": [
+    {
+      "productId": {
+        "_id": "67090bc399ad987b7212ee2c",
+        "name": "Apple iPhone 15",
+        "shortDescription": " Dynamic Island, HDR Display, True Tone, Wide Colour (P3)",
+        "description": "Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+        "purchasePrice": 1350,
+        "discount": 25,
+        "images": [
+          "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70"
+        ],
+        "categoryId": "66ee86fdd0bcb16bebdb00a0",
+        "brandId": "6707bb89d0d397b3d87ce2cb",
+        "isfeatured": true,
+        "isNew": false,
+        "__v": 0
+      },
+      "quantity": 1
+    }
+  ],
+  "paymentMethod": "cod",
+  "address": {
+    "name": "aad",
+    "address": "asdadasd",
+    "phone": "78994154",
+    "city": "sad",
+    "state": "asdasd",
+    "zip": "56465"
+  },
+  "status": "pending",
+  "__v": 0
+}]
